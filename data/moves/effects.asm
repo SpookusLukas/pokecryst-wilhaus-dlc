@@ -2605,3 +2605,23 @@ StoneAxe:
 	buildopponentrage
 	kingsrock
 	endmove
+
+DireClaw:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	direstatuschance
+	endmove

@@ -362,4 +362,5 @@ MoveNames::
 	li "RAGE FIST"
 	li "BARB BARRAGE"
 	li "STONE AXE"
+	li "DIRE CLAW"
 	assert_list_length NUM_ATTACKS

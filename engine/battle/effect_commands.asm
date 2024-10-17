@@ -4971,6 +4971,24 @@ BattleCommand_TriStatusChance:
 	dw BattleCommand_FreezeTarget ; freeze
 	dw BattleCommand_BurnTarget ; burn
 
+BattleCommand_DireStatusChance:
+	call BattleCommand_EffectChance
+.loop
+	; 1/3 chance of each status
+	call BattleRandom
+	swap a
+	and %11
+	jr z, .loop
+	dec a
+	ld hl, .StatusCommands
+	rst JumpTable
+	ret
+
+.StatusCommands:
+	dw BattleCommand_ParalyzeTarget ; paralyze
+	dw BattleCommand_PoisonTarget ; poison
+	dw BattleCommand_SleepTarget ; sleep
+
 BattleCommand_Curl:
 	ld a, BATTLE_VARS_SUBSTATUS2
 	call GetBattleVarAddr
@@ -5108,8 +5126,6 @@ CalcBattleStats:
 	jr nz, .loop
 
 	ret
-
-INCLUDE "engine/battle/move_effects/bide.asm"
 
 BattleCommand_CheckRampage:
 	ld de, wPlayerRolloutCount

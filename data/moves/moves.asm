@@ -381,4 +381,5 @@ Moves1:
 	move EFFECT_RAGE,               50, GHOST,         100, 10,   0      ;RAGE_FIST
 	move EFFECT_BARB_BARRAGE,       60, POISON,        100, 10,  50      ;BARB_BARRAGE
 	move EFFECT_STONE_AXE,          65, ROCK,           90, 15,   0      ;STONE_AXE
+	move EFFECT_DIRE_CLAW,          80, POISON,        100, 15,  30      ;DIRE_CLAW
 	.IndirectEnd::

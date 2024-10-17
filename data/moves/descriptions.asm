@@ -368,6 +368,7 @@ MoveDescriptions1:
 	dw RageFistDescription
 	dw BarbBarrageDescription
 	dw StoneAxeDescription
+	dw DireClawDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1820,3 +1821,7 @@ BarbBarrageDescription:
 StoneAxeDescription:
 	db   "An attack that"
 	next "places spikes.@"
+
+DireClawDescription:
+	db   "A slash coated in"
+	next "various toxins.@"

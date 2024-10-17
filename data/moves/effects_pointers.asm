@@ -188,4 +188,5 @@ MoveEffectsPointers:
 	dw ScreenBreak
 	dw BarbBarrage
 	dw StoneAxe
+	dw DireClaw
 	assert_table_length NUM_MOVE_EFFECTS

@@ -369,6 +369,7 @@
 	const RAGE_FIST    ; 168
 	const BARB_BARRAGE ; 169
 	const STONE_AXE    ; 16a
+	const DIRE_CLAW    ; 16b
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:
