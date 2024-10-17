@@ -2583,3 +2583,25 @@ BarbBarrage:
 	buildopponentrage
 	poisontarget
 	endmove
+
+StoneAxe:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	resettypematchup
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	spikes
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove

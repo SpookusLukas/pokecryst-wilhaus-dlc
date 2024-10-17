@@ -367,6 +367,7 @@ MoveDescriptions1:
 	dw PsyshieldDescription
 	dw RageFistDescription
 	dw BarbBarrageDescription
+	dw StoneAxeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1815,3 +1816,7 @@ RageFistDescription:
 BarbBarrageDescription:
 	db   "Deals 2x damage if"
 	next "foe is poisoned.@"
+
+StoneAxeDescription:
+	db   "An attack that"
+	next "places spikes.@"

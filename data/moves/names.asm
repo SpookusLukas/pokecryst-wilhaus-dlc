@@ -361,4 +361,5 @@ MoveNames::
 	li "PSYSHIELD"
 	li "RAGE FIST"
 	li "BARB BARRAGE"
+	li "STONE AXE"
 	assert_list_length NUM_ATTACKS

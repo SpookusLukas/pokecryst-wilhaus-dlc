@@ -368,6 +368,7 @@
 	const PSYSHIELD    ; 167
 	const RAGE_FIST    ; 168
 	const BARB_BARRAGE ; 169
+	const STONE_AXE    ; 16a
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

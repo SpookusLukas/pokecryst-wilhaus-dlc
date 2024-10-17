@@ -380,4 +380,5 @@ Moves1:
 	move EFFECT_DEFENSE_UP_HIT,     70, PSYCHIC_TYPE,   90, 10, 100      ;PSYSHIELD
 	move EFFECT_RAGE,               50, GHOST,         100, 10,   0      ;RAGE_FIST
 	move EFFECT_BARB_BARRAGE,       60, POISON,        100, 10,  50      ;BARB_BARRAGE
+	move EFFECT_STONE_AXE,          65, ROCK,           90, 15,   0      ;STONE_AXE
 	.IndirectEnd::

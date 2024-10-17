@@ -391,6 +391,7 @@ BattleAnimations::
 	dw BattleAnim_Psyshield
 	dw BattleAnim_RageFist
 	dw BattleAnim_BarbBarrage
+	dw BattleAnim_StoneAxe
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -907,6 +908,7 @@ BattleAnim_HyperDrill:
 BattleAnim_Psyshield:
 BattleAnim_RageFist:
 BattleAnim_BarbBarrage:
+BattleAnim_StoneAxe:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
