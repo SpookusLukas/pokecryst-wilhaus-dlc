@@ -363,6 +363,10 @@
 ;	const PAYBACK      ; 162
 ;	const AVALANCHE    ; 163
 	const BRICK_BREAK  ; 164
+	const TWIN_BEAM    ; 165
+	const HYPER_DRILL  ; 166
+	const PSYSHIELD    ; 167
+	const RAGE_FIST    ; 168
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

@@ -362,6 +362,10 @@ MoveDescriptions1:
 ;	dw PaybackDescription
 ;	dw AvalancheDescription
 	dw BrickBreakDescription
+	dw TwinBeamDescription
+	dw HyperDrillDescription
+	dw PsyshieldDescription
+	dw RageFistDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1790,3 +1794,19 @@ MuddyWaterDescription:
 BrickBreakDescription: 
 	db   "Breaks Reflect and"
 	next "Light Screen.@"
+
+TwinBeamDescription:
+	db   "A psychic beam"
+	next "that hits twice.@"
+
+HyperDrillDescription:
+	db   "Breaks Reflect and"
+	next "Light Screen.@"
+
+PsyshieldDescription:
+	db   "An attack that"
+	next "raises defense.@"
+
+RageFistDescription:
+	db   "Raises ATTACK if"
+	next "the user is hit.@"

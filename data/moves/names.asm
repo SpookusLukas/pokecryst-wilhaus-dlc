@@ -356,4 +356,8 @@ MoveNames::
 ;	li "PAYBACK"
 ;	li "AVALANCHE"
 	li "BRICK BREAK"
+	li "TWIN BEAM"
+	li "HYPER DRILL"
+	li "PSYSHIELD"
+	li "RAGE FIST"
 	assert_list_length NUM_ATTACKS

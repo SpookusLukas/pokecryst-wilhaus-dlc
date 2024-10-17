@@ -375,4 +375,8 @@ Moves1:
 ;	move EFFECT_PAYBACK,            50, DARK,          100, 10,   0      ;PAYBACK
 ;	move EFFECT_PAYBACK,            60, ICE,           100, 10,   0      ;AVALANCHE
 	move EFFECT_SCREEN_BREAK,       75, FIGHTING,      100, 15,   0      ;BRICK_BREAK
+	move EFFECT_DOUBLE_HIT,         40, PSYCHIC_TYPE,  100, 10,   0      ;TWIN_BEAM
+	move EFFECT_SCREEN_BREAK,      100, NORMAL,        100,  5,   0      ;HYPER_DRILL
+	move EFFECT_DEFENSE_UP_HIT,     70, PSYCHIC_TYPE,   90, 10, 100      ;PSYSHIELD
+	move EFFECT_RAGE,               50, GHOST,         100, 10,   0      ;RAGE_FIST
 	.IndirectEnd::
