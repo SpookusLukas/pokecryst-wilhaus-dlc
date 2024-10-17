@@ -366,6 +366,7 @@ MoveDescriptions1:
 	dw HyperDrillDescription
 	dw PsyshieldDescription
 	dw RageFistDescription
+	dw BarbBarrageDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1810,3 +1811,7 @@ PsyshieldDescription:
 RageFistDescription:
 	db   "Raises ATTACK if"
 	next "the user is hit.@"
+
+BarbBarrageDescription:
+	db   "Deals 2x damage if"
+	next "foe is poisoned.@"

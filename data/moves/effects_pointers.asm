@@ -186,4 +186,5 @@ MoveEffectsPointers:
 	dw DoBurn
 ;	dw Payback
 	dw ScreenBreak
+	dw BarbBarrage
 	assert_table_length NUM_MOVE_EFFECTS

@@ -367,6 +367,7 @@
 	const HYPER_DRILL  ; 166
 	const PSYSHIELD    ; 167
 	const RAGE_FIST    ; 168
+	const BARB_BARRAGE ; 169
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

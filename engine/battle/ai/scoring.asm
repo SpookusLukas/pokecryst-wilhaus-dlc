@@ -392,6 +392,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_HEX,              AI_Smart_Hex
 	dbw EFFECT_VENOSHOCK,        AI_Smart_Venoshock
 	dbw EFFECT_BURN,             AI_Smart_Paralyze
+	dbw EFFECT_BARB_BARRAGE,     AI_Smart_Venoshock
 	db -1 ; end
 
 AI_Smart_Sleep:

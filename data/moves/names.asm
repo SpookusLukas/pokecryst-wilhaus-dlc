@@ -360,4 +360,5 @@ MoveNames::
 	li "HYPER DRILL"
 	li "PSYSHIELD"
 	li "RAGE FIST"
+	li "BARB BARRAGE"
 	assert_list_length NUM_ATTACKS

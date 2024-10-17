@@ -379,4 +379,5 @@ Moves1:
 	move EFFECT_SCREEN_BREAK,      100, NORMAL,        100,  5,   0      ;HYPER_DRILL
 	move EFFECT_DEFENSE_UP_HIT,     70, PSYCHIC_TYPE,   90, 10, 100      ;PSYSHIELD
 	move EFFECT_RAGE,               50, GHOST,         100, 10,   0      ;RAGE_FIST
+	move EFFECT_BARB_BARRAGE,       60, POISON,        100, 10,  50      ;BARB_BARRAGE
 	.IndirectEnd::

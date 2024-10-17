@@ -2561,3 +2561,25 @@ ScreenBreak:
 	buildopponentrage
 	kingsrock
 	endmove
+
+BarbBarrage:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	venoshock
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	poisontarget
+	endmove
