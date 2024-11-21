@@ -386,7 +386,9 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         30, GHOST,         100, 20,  30      ;ASTONISH
 	move EFFECT_NORMAL_HIT,         60, FLYING,         95, 25,   0      ;AIR_CUTTER
 	move EFFECT_ATTACK_UP,           0, NORMAL,        100, 40,   0      ;HOWL
+	move EFFECT_OVERHEAT,          130, GRASS,          90,  5,   0      ;LEAF_STORM
+	move EFFECT_RECOIL_HIT,        120, WATER,         100, 10,   0      ;WAVE_CRASH
 	.IndirectEnd::
 
 
-; add yawn, superpower, charge, wave crash, leaf storm, lava plume, discharge
+; add yawn, superpower, charge, lava plume, discharge

@@ -367,4 +367,6 @@ MoveNames::
 	li "ASTONISH"
 	li "AIR CUTTER"
 	li "HOWL"
+	li "LEAF STORM"
+	li "WAVE CRASH"
 	assert_list_length NUM_ATTACKS

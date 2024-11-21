@@ -373,6 +373,8 @@ MoveDescriptions1:
 	dw AstonishDescription
 	dw AirCutterDescription
 	dw HowlDescription
+	dw LeafStormDescription
+	dw WaveCrashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1845,3 +1847,11 @@ AirCutterDescription:
 HowlDescription:
 	db   "A move that raises"
 	next "the user's ATTACK.@"
+
+LeafStormDescription:
+	db   "Strong but lowers"
+	next "user's SPCL. ATK.@"
+
+WaveCrashDescription:
+	db   "A tackle that also"
+	next "hurts the user.@"

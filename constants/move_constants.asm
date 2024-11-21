@@ -374,6 +374,8 @@
 	const ASTONISH     ; 16d
 	const AIR_CUTTER   ; 16e
 	const HOWL         ; 16f
+	const LEAF_STORM   ; 170
+	const WAVE_CRASH   ; 171
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:
