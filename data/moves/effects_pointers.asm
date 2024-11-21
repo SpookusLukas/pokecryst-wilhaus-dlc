@@ -189,4 +189,5 @@ MoveEffectsPointers:
 	dw BarbBarrage
 	dw StoneAxe
 	dw DireClaw
+	dw Superpower
 	assert_table_length NUM_MOVE_EFFECTS

@@ -379,6 +379,7 @@
 	const LAVA_PLUME   ; 172
 	const DISCHARGE    ; 173
 	const CHARGE       ; 174
+	const SUPERPOWER   ; 175
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

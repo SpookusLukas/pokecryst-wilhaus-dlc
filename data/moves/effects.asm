@@ -2625,3 +2625,25 @@ DireClaw:
 	buildopponentrage
 	direstatuschance
 	endmove
+
+Superpower:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	superpower
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove

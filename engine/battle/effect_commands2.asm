@@ -17,5 +17,6 @@ INCLUDE "engine/battle/move_effects/acrobatics.asm"
 
 INCLUDE "engine/battle/move_effects/overheat.asm"
 INCLUDE "engine/battle/move_effects/close_combat.asm"
+INCLUDE "engine/battle/move_effects/superpower.asm"
 
 INCLUDE "engine/battle/move_effects/screen_break.asm"

@@ -197,4 +197,5 @@ BattleCommandPointers:
 ;	dw BattleCommand_Payback
 	dw BattleCommand_ScreenBreak
 	dw BattleCommand_DireStatusChance
+	dw BattleCommand_Superpower
 	assert_table_length NUM_EFFECT_COMMANDS

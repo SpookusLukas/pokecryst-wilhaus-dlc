@@ -390,7 +390,8 @@ Moves1:
 	move EFFECT_RECOIL_HIT,        120, WATER,         100, 10,   0      ;WAVE_CRASH
 	move EFFECT_BURN_HIT,           75, FIRE,          100, 15,  40      ;LAVA_PLUME
 	move EFFECT_PARALYZE_HIT,       75, ELECTRIC,      100, 15,  40      ;DISCHARGE
-	move EFFECT_CALM_MIND,           0, ELECTRIC,      100, 20,   0      ;CHARGE
+	move EFFECT_CALM_MIND,           0, ELECTRIC,      100, 20,   0      ;CHARGE         ;;;
+	move EFFECT_SUPERPOWER,        120, FIGHTING,      100,  5,   0      ;SUPERPOWER     ;;;
 	.IndirectEnd::
 
 

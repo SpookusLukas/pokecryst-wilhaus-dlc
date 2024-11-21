@@ -372,4 +372,5 @@ MoveNames::
 	li "LAVA PLUME"
 	li "DISCHARGE"
 	li "CHARGE"
+	li "SUPERPOWER"
 	assert_list_length NUM_ATTACKS

@@ -402,6 +402,7 @@ BattleAnimations::
 	dw BattleAnim_LavaPlume
 	dw BattleAnim_Discharge
 	dw BattleAnim_Charge
+	dw BattleAnim_Superpower
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -929,6 +930,7 @@ BattleAnim_WaveCrash:
 BattleAnim_LavaPlume:
 BattleAnim_Discharge:
 BattleAnim_Charge:
+BattleAnim_Superpower:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

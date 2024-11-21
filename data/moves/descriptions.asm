@@ -378,6 +378,7 @@ MoveDescriptions1:
 	dw LavaPlumeDescription
 	dw DischargeDescription
 	dw ChargeDescription
+	dw SuperpowerDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1870,3 +1871,7 @@ DischargeDescription:
 ChargeDescription:
 	db   "Raises SPCL.ATK"
 	next "and SPCL.DEF.@"
+
+SuperpowerDescription:
+	db   "Strong but lowers"
+	next "user's ATK & DEF.@"
