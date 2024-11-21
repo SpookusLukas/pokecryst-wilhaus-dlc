@@ -375,6 +375,9 @@ MoveDescriptions1:
 	dw HowlDescription
 	dw LeafStormDescription
 	dw WaveCrashDescription
+	dw LavaPlumeDescription
+	dw DischargeDescription
+	dw ChargeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1855,3 +1858,15 @@ LeafStormDescription:
 WaveCrashDescription:
 	db   "A tackle that also"
 	next "hurts the user.@"
+
+LavaPlumeDescription:
+	db   "An attack that may"
+	next "inflict a burn.@"
+
+DischargeDescription:
+	db   "An attack that may"
+	next "cause paralysis.@"
+
+ChargeDescription:
+	db   "Raises SPCL.ATK"
+	next "and SPCL.DEF.@"

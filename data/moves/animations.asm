@@ -399,6 +399,9 @@ BattleAnimations::
 	dw BattleAnim_Howl
 	dw BattleAnim_LeafStorm
 	dw BattleAnim_WaveCrash
+	dw BattleAnim_LavaPlume
+	dw BattleAnim_Discharge
+	dw BattleAnim_Charge
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -923,6 +926,9 @@ BattleAnim_AirCutter:
 BattleAnim_Howl:
 BattleAnim_LeafStorm:
 BattleAnim_WaveCrash:
+BattleAnim_LavaPlume:
+BattleAnim_Discharge:
+BattleAnim_Charge:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

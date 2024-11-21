@@ -376,6 +376,9 @@
 	const HOWL         ; 16f
 	const LEAF_STORM   ; 170
 	const WAVE_CRASH   ; 171
+	const LAVA_PLUME   ; 172
+	const DISCHARGE    ; 173
+	const CHARGE       ; 174
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

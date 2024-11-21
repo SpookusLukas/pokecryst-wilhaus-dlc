@@ -369,4 +369,7 @@ MoveNames::
 	li "HOWL"
 	li "LEAF STORM"
 	li "WAVE CRASH"
+	li "LAVA PLUME"
+	li "DISCHARGE"
+	li "CHARGE"
 	assert_list_length NUM_ATTACKS

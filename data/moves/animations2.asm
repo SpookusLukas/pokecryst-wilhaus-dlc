@@ -161,51 +161,51 @@ BattleAnim_PoisonFang:
 	anim_ret
 
 BattleAnim_Dive:
-	anim_2gfx BATTLE_ANIM_GFX_BUBBLE, BATTLE_ANIM_GFX_HIT
-	anim_if_param_equal $0, .hit
-	anim_if_param_equal $2, .fail
-	anim_call BattleAnim_TargetObj_2Row
-	anim_bgeffect BATTLE_BG_EFFECT_DIG, $0, BG_EFFECT_USER, $1
-.loop
-	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_obj BATTLE_ANIM_OBJ_BUBBLE, 56, 104, $0
-	anim_wait 32
-	anim_loop 3, .loop
-	anim_wait 32
-	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 8
-	anim_incbgeffect BATTLE_BG_EFFECT_DIG
-	anim_call BattleAnim_ShowMon_0
-	anim_ret
-
-.hit
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
-	anim_wait 32
-.fail
-	anim_bgeffect BATTLE_BG_EFFECT_ENTER_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 32
-	anim_ret
+;	anim_2gfx BATTLE_ANIM_GFX_BUBBLE, BATTLE_ANIM_GFX_HIT
+;	anim_if_param_equal $0, .hit
+;	anim_if_param_equal $2, .fail
+;	anim_call BattleAnim_TargetObj_2Row
+;	anim_bgeffect BATTLE_BG_EFFECT_DIG, $0, BG_EFFECT_USER, $1
+;.loop
+;	anim_sound 0, 0, SFX_RAZOR_WIND
+;	anim_obj BATTLE_ANIM_OBJ_BUBBLE, 56, 104, $0
+;	anim_wait 32
+;	anim_loop 3, .loop
+;	anim_wait 32
+;	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
+;	anim_wait 8
+;	anim_incbgeffect BATTLE_BG_EFFECT_DIG
+;	anim_call BattleAnim_ShowMon_0
+;	anim_ret
+;
+;.hit
+;	anim_sound 0, 1, SFX_MEGA_PUNCH
+;	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
+;	anim_wait 32
+;.fail
+;	anim_bgeffect BATTLE_BG_EFFECT_ENTER_MON, $0, BG_EFFECT_USER, $0
+;	anim_wait 32
+;	anim_ret
 
 BattleAnim_WillOWisp:
-	anim_1gfx BATTLE_ANIM_GFX_FIRE
-    anim_bgp $1b
-.loop
-	anim_sound 6, 2, SFX_EMBER
-	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 88, $4
-	anim_wait 2
-	anim_sound 6, 2, SFX_EMBER
-	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 96, $3
-	anim_wait 2
-	anim_sound 6, 2, SFX_EMBER
-	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 88, $3
-	anim_wait 2
-	anim_sound 6, 2, SFX_EMBER
-	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 96, $4
-	anim_wait 2
-	anim_loop 2, .loop
-	anim_wait 96
-	anim_ret
+;	anim_1gfx BATTLE_ANIM_GFX_FIRE
+;    anim_bgp $1b
+;.loop
+;	anim_sound 6, 2, SFX_EMBER
+;	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 88, $4
+;	anim_wait 2
+;	anim_sound 6, 2, SFX_EMBER
+;	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 96, $3
+;	anim_wait 2
+;	anim_sound 6, 2, SFX_EMBER
+;	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 88, $3
+;	anim_wait 2
+;	anim_sound 6, 2, SFX_EMBER
+;	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 96, $4
+;	anim_wait 2
+;	anim_loop 2, .loop
+;	anim_wait 96
+;	anim_ret
 
 BattleAnim_GigaImpact:
 ;	anim_1gfx BATTLE_ANIM_GFX_HIT
