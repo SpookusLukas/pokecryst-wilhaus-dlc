@@ -370,6 +370,10 @@
 	const BARB_BARRAGE ; 169
 	const STONE_AXE    ; 16a
 	const DIRE_CLAW    ; 16b
+	const METEOR_MASH  ; 16c
+	const ASTONISH     ; 16d
+	const AIR_CUTTER   ; 16e
+	const HOWL         ; 16f
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

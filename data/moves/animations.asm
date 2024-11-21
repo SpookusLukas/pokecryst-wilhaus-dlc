@@ -393,6 +393,10 @@ BattleAnimations::
 	dw BattleAnim_BarbBarrage
 	dw BattleAnim_StoneAxe
 	dw BattleAnim_DireClaw
+	dw BattleAnim_MeteorMash
+	dw BattleAnim_Astonish
+	dw BattleAnim_AirCutter
+	dw BattleAnim_Howl
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -911,6 +915,10 @@ BattleAnim_RageFist:
 BattleAnim_BarbBarrage:
 BattleAnim_StoneAxe:
 BattleAnim_DireClaw:
+BattleAnim_MeteorMash:
+BattleAnim_Astonish:
+BattleAnim_AirCutter:
+BattleAnim_Howl:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

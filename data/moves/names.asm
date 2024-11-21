@@ -10,7 +10,7 @@ MoveNames::
 	li "ICE PUNCH"
 	li "THUNDERPUNCH"
 	li "SCRATCH"
-	li "VICEGRIP"
+	li "VISE GRIP"
 	li "GUILLOTINE"
 	li "RAZOR WIND"
 	li "SWORDS DANCE"
@@ -363,4 +363,8 @@ MoveNames::
 	li "BARB BARRAGE"
 	li "STONE AXE"
 	li "DIRE CLAW"
+	li "METEOR MASH"
+	li "ASTONISH"
+	li "AIR CUTTER"
+	li "HOWL"
 	assert_list_length NUM_ATTACKS

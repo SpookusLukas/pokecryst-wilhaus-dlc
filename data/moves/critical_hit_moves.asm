@@ -14,4 +14,5 @@ CriticalHitMoves:
 	dw SHADOW_CLAW
 	dw NIGHT_SLASH
 	dw BLAZE_KICK
+	dw AIR_CUTTER
 	dw -1

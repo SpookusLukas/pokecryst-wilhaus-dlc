@@ -28,7 +28,7 @@ Moves1:
 	move EFFECT_FREEZE_HIT,         75, ICE,           100, 15,  10      ;ICE_PUNCH
 	move EFFECT_PARALYZE_HIT,       75, ELECTRIC,      100, 15,  10      ;THUNDERPUNCH
 	move EFFECT_NORMAL_HIT,         40, NORMAL,        100, 35,   0      ;SCRATCH
-	move EFFECT_NORMAL_HIT,         55, NORMAL,        100, 30,   0      ;VICEGRIP
+	move EFFECT_NORMAL_HIT,         55, NORMAL,        100, 30,   0      ;VISE_GRIP
 	move EFFECT_OHKO,                0, NORMAL,         30,  5,   0      ;GUILLOTINE
 	move EFFECT_RAZOR_WIND,         80, NORMAL,        100, 10,   0      ;RAZOR_WIND
 	move EFFECT_ATTACK_UP_2,         0, NORMAL,        100, 20,   0      ;SWORDS_DANCE
@@ -382,4 +382,11 @@ Moves1:
 	move EFFECT_BARB_BARRAGE,       60, POISON,        100, 10,  50      ;BARB_BARRAGE
 	move EFFECT_STONE_AXE,          65, ROCK,           90, 15,   0      ;STONE_AXE
 	move EFFECT_DIRE_CLAW,          80, POISON,        100, 15,  30      ;DIRE_CLAW
+	move EFFECT_ATTACK_UP_HIT,      90, STEEL,          90, 10,  20      ;METEOR_MASH
+	move EFFECT_FLINCH_HIT,         30, GHOST,         100, 20,  30      ;ASTONISH
+	move EFFECT_NORMAL_HIT,         60, FLYING,         95, 25,   0      ;AIR_CUTTER
+	move EFFECT_ATTACK_UP,           0, NORMAL,        100, 40,   0      ;HOWL
 	.IndirectEnd::
+
+
+; add yawn, superpower, charge, wave crash, leaf storm, lava plume, discharge

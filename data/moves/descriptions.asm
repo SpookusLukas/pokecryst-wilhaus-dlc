@@ -369,6 +369,10 @@ MoveDescriptions1:
 	dw BarbBarrageDescription
 	dw StoneAxeDescription
 	dw DireClawDescription
+	dw MeteorMashDescription
+	dw AstonishDescription
+	dw AirCutterDescription
+	dw HowlDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1825,3 +1829,19 @@ StoneAxeDescription:
 DireClawDescription:
 	db   "A slash coated in"
 	next "various toxins.@"
+
+MeteorMashDescription:
+	db   "An attack that may"
+	next "up user's ATTACK.@"
+
+AstonishDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+
+AirCutterDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+HowlDescription:
+	db   "A move that raises"
+	next "the user's ATTACK.@"
