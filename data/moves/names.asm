@@ -373,4 +373,7 @@ MoveNames::
 	li "DISCHARGE"
 	li "CHARGE"
 	li "SUPERPOWER"
+	li "SHADOW PUNCH"
+	li "HOLD BACK"
+	li "VACUUM WAVE"
 	assert_list_length NUM_ATTACKS

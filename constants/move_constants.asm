@@ -380,6 +380,9 @@
 	const DISCHARGE    ; 173
 	const CHARGE       ; 174
 	const SUPERPOWER   ; 175
+	const SHADOW_PUNCH ; 176
+	const HOLD_BACK    ; 177
+	const VACUUM_WAVE  ; 178
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

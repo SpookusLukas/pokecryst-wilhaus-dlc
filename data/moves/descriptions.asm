@@ -379,6 +379,9 @@ MoveDescriptions1:
 	dw DischargeDescription
 	dw ChargeDescription
 	dw SuperpowerDescription
+	dw ShadowPunchDescription
+	dw HoldBackDescription
+	dw VacuumWaveDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1875,3 +1878,15 @@ ChargeDescription:
 SuperpowerDescription:
 	db   "Strong but lowers"
 	next "user's ATK & DEF.@"
+
+ShadowPunchDescription:
+	db   "Spooky punch that"
+	next "never misses.@"
+
+HoldBackDescription:
+	db   "Leaves target w/"
+	next "at least 1 HP.@"
+
+VacuumWaveDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"

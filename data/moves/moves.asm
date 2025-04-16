@@ -392,6 +392,9 @@ Moves1:
 	move EFFECT_PARALYZE_HIT,       75, ELECTRIC,      PHYSICAL, 100, 15,  40      ;DISCHARGE
 	move EFFECT_CALM_MIND,           0, ELECTRIC,      STATUS,   100, 20,   0      ;CHARGE         ;;;
 	move EFFECT_SUPERPOWER,        120, FIGHTING,      PHYSICAL, 100,  5,   0      ;SUPERPOWER     ;;;
+	move EFFECT_ALWAYS_HIT,         60, GHOST,         PHYSICAL, 100, 20,   0      ;SHADOW_PUNCH
+	move EFFECT_FALSE_SWIPE,        50, NORMAL,        PHYSICAL,  95, 40,   0      ;HOLD_BACK
+	move EFFECT_PRIORITY_HIT,       40, FIGHTING,      SPECIAL,  100, 30,   0      ;VACUUM_WAVE
 	.IndirectEnd::
 
 
