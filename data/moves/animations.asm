@@ -383,7 +383,7 @@ BattleAnimations::
 	dw BattleAnim_WillOWisp
 	dw BattleAnim_BlazeKick
 	dw BattleAnim_MuddyWater
-;	dw BattleAnim_Payback
+;	dw BattleAnim_Assurance
 ;	dw BattleAnim_Avalanche
 	dw BattleAnim_BrickBreak
 	dw BattleAnim_TwinBeam
@@ -406,6 +406,10 @@ BattleAnimations::
 	dw BattleAnim_ShadowPunch
 	dw BattleAnim_HoldBack
 	dw BattleAnim_VacuumWave
+	dw BattleAnim_MetalSound
+	dw BattleAnim_DoubleHit
+	dw BattleAnim_WoodHammer
+	dw BattleAnim_PsychicFang
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -914,7 +918,7 @@ BattleAnim_MudShot:
 BattleAnim_Hurricane:
 BattleAnim_BlazeKick:
 BattleAnim_MuddyWater:
-;BattleAnim_Payback:
+;BattleAnim_Assurance:
 ;BattleAnim_Avalanche:
 BattleAnim_BrickBreak:
 BattleAnim_TwinBeam:
@@ -937,6 +941,10 @@ BattleAnim_Superpower:
 BattleAnim_ShadowPunch:
 BattleAnim_HoldBack:
 BattleAnim_VacuumWave:
+BattleAnim_MetalSound:
+BattleAnim_DoubleHit:
+BattleAnim_WoodHammer:
+BattleAnim_PsychicFang:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

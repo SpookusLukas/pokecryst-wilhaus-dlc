@@ -353,7 +353,7 @@ MoveNames::
 	li "WILL-O-WISP"
 	li "BLAZE KICK"
 	li "MUDDY WATER"
-;	li "PAYBACK"
+;	li "ASSURANCE"
 ;	li "AVALANCHE"
 	li "BRICK BREAK"
 	li "TWIN BEAM"
@@ -376,4 +376,8 @@ MoveNames::
 	li "SHADOW PUNCH"
 	li "HOLD BACK"
 	li "VACUUM WAVE"
+	li "METAL SOUND"
+	li "DOUBLE HIT"
+	li "WOOD HAMMER"
+	li "PSYCHIC FANG"
 	assert_list_length NUM_ATTACKS

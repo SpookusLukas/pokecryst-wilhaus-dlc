@@ -359,7 +359,7 @@ MoveDescriptions1:
 	dw WillOWispDescription
 	dw BlazeKickDescription
 	dw MuddyWaterDescription
-;	dw PaybackDescription
+;	dw AssuranceDescription
 ;	dw AvalancheDescription
 	dw BrickBreakDescription
 	dw TwinBeamDescription
@@ -382,6 +382,10 @@ MoveDescriptions1:
 	dw ShadowPunchDescription
 	dw HoldBackDescription
 	dw VacuumWaveDescription
+	dw MetalSoundDescription
+	dw DoubleHitDescription
+	dw WoodHammerDescription
+	dw PsychicFangDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1799,7 +1803,7 @@ MuddyWaterDescription:
 	db   "An attack that may"
 	next "lower accuracy.@"
 
-;PaybackDescription: 
+;AssuranceDescription: 
 ;	db   "2x damage if"
 ;	next "already attacked.@"
 
@@ -1890,3 +1894,20 @@ HoldBackDescription:
 VacuumWaveDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
+
+MetalSoundDescription:
+	db   "Sharply reduces"
+	next "the foe's SP. DEF.@"
+	
+DoubleHitDescription:
+	db   "An attack that"
+	next "always hits twice.@"
+
+WoodHammerDescription:
+	db   "A slam that also"
+	next "hurts the user.@"
+
+PsychicFangDescription:
+	db   "Breaks Reflect and"
+	next "Light Screen.@"
+	

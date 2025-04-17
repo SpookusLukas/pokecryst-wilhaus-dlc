@@ -360,7 +360,7 @@
 	const WILL_O_WISP  ; 15f
 	const BLAZE_KICK   ; 160
 	const MUDDY_WATER  ; 161
-;	const PAYBACK      ; 162
+;	const ASSURANCE    ; 162
 ;	const AVALANCHE    ; 163
 	const BRICK_BREAK  ; 164
 	const TWIN_BEAM    ; 165
@@ -383,6 +383,10 @@
 	const SHADOW_PUNCH ; 176
 	const HOLD_BACK    ; 177
 	const VACUUM_WAVE  ; 178
+	const METAL_SOUND  ; 179
+	const DOUBLE_HIT   ; 17a
+	const WOOD_HAMMER  ; 17b
+	const PSYCHIC_FANG ; 17c
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:

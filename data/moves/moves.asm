@@ -372,7 +372,7 @@ Moves1:
 	move EFFECT_BURN,                0, FIRE,          STATUS,    85, 15,   0      ;WILL_O_WISP
 	move EFFECT_BURN_HIT,           85, FIRE,          PHYSICAL,  90, 10,  10      ;BLAZE_KICK
 	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,         SPECIAL,   85, 10,  30      ;MUDDY_WATER
-;	move EFFECT_PAYBACK,            50, DARK,          PHYSICAL, 100, 10,   0      ;PAYBACK
+;	move EFFECT_PAYBACK,            60, DARK,          PHYSICAL, 100, 10,   0      ;ASSURANCE
 ;	move EFFECT_PAYBACK,            60, ICE,           PHYSICAL, 100, 10,   0      ;AVALANCHE
 	move EFFECT_SCREEN_BREAK,       75, FIGHTING,      PHYSICAL, 100, 15,   0      ;BRICK_BREAK
 	move EFFECT_DOUBLE_HIT,         40, PSYCHIC_TYPE,  SPECIAL,  100, 10,   0      ;TWIN_BEAM
@@ -395,7 +395,10 @@ Moves1:
 	move EFFECT_ALWAYS_HIT,         60, GHOST,         PHYSICAL, 100, 20,   0      ;SHADOW_PUNCH
 	move EFFECT_FALSE_SWIPE,        50, NORMAL,        PHYSICAL,  95, 40,   0      ;HOLD_BACK
 	move EFFECT_PRIORITY_HIT,       40, FIGHTING,      SPECIAL,  100, 30,   0      ;VACUUM_WAVE
+	move EFFECT_SP_DEF_DOWN_2,       0, STEEL,         STATUS,    85, 40,   0      ;METAL_SOUND
+	move EFFECT_DOUBLE_HIT,         35, NORMAL,        PHYSICAL,  90, 10,   0      ;DOUBLE_HIT
+	move EFFECT_RECOIL_HIT,        120, GRASS,         PHYSICAL, 100, 15,   0      ;WOOD_HAMMER
+	move EFFECT_SCREEN_BREAK,       85, PSYCHIC_TYPE,  PHYSICAL, 100, 10,   0      ;PSYCHIC_FANG
 	.IndirectEnd::
 
-
-; add yawn, superpower,
+; add yawn, revenge
