@@ -190,4 +190,6 @@ MoveEffectsPointers:
 	dw StoneAxe
 	dw DireClaw
 	dw Superpower
+	dw ResetStatHit
+	dw MeteorBeam
 	assert_table_length NUM_MOVE_EFFECTS

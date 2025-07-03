@@ -124,6 +124,8 @@ INCLUDE "engine/events/kurt_selectquantity_interpretjoypad.asm"
 SECTION "bankA", ROMX
 
 INCLUDE "engine/overworld/wildmons.asm"
+INCLUDE "engine/events/pokerus/pokerus.asm"
+INCLUDE "engine/events/move_deleter.asm"
 
 
 SECTION "bankB", ROMX
@@ -131,10 +133,8 @@ SECTION "bankB", ROMX
 INCLUDE "engine/battle/trainer_huds.asm"
 INCLUDE "data/trainers/class_names.asm"
 INCLUDE "engine/battle/ai/redundant.asm"
-INCLUDE "engine/events/move_deleter.asm"
 INCLUDE "engine/items/tmhm.asm"
 INCLUDE "engine/pokemon/print_move_description.asm"
-INCLUDE "engine/events/pokerus/pokerus.asm"
 INCLUDE "engine/battle/start_battle.asm"
 INCLUDE "engine/gfx/place_graphic.asm"
 

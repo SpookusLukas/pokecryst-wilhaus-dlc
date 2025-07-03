@@ -362,35 +362,48 @@
 	const MUDDY_WATER  ; 161
 ;	const ASSURANCE    ; 162
 ;	const AVALANCHE    ; 163
-	const BRICK_BREAK  ; 164
-	const TWIN_BEAM    ; 165
-	const HYPER_DRILL  ; 166
-	const PSYSHIELD    ; 167
-	const RAGE_FIST    ; 168
-	const BARB_BARRAGE ; 169
-	const STONE_AXE    ; 16a
-	const DIRE_CLAW    ; 16b
-	const METEOR_MASH  ; 16c
-	const ASTONISH     ; 16d
-	const AIR_CUTTER   ; 16e
-	const HOWL         ; 16f
-	const LEAF_STORM   ; 170
-	const WAVE_CRASH   ; 171
-	const LAVA_PLUME   ; 172
-	const DISCHARGE    ; 173
-	const CHARGE       ; 174
-	const SUPERPOWER   ; 175
-	const SHADOW_PUNCH ; 176
-	const HOLD_BACK    ; 177
-	const VACUUM_WAVE  ; 178
-	const METAL_SOUND  ; 179
-	const DOUBLE_HIT   ; 17a
-	const WOOD_HAMMER  ; 17b
-	const PSYCHIC_FANG ; 17c
+;	const REVENGE      ; 164
+	const BRICK_BREAK  ; 165
+	const TWIN_BEAM    ; 166
+	const HYPER_DRILL  ; 167
+	const PSYSHIELD    ; 168
+	const RAGE_FIST    ; 169
+	const BARB_BARRAGE ; 16a
+	const STONE_AXE    ; 16b
+	const DIRE_CLAW    ; 16c
+	const METEOR_MASH  ; 16d
+	const ASTONISH     ; 16e
+	const AIR_CUTTER   ; 16f
+	const HOWL         ; 170
+	const LEAF_STORM   ; 171
+	const WAVE_CRASH   ; 172
+	const LAVA_PLUME   ; 173
+	const DISCHARGE    ; 174
+	const CHARGE       ; 175
+	const SUPERPOWER   ; 176
+	const SHADOW_PUNCH ; 177
+	const HOLD_BACK    ; 178
+	const VACUUM_WAVE  ; 179
+	const METAL_SOUND  ; 17a
+	const DOUBLE_HIT   ; 17b
+	const WOOD_HAMMER  ; 17c
+	const PSYCHIC_FANG ; 17d
+	const HEAD_SMASH   ; 17e
+	const SKITTERSMACK ; 17f
+	const INFESTATION  ; 180
+	const CELL_SLAM    ; 181
+	const RAGING_FURY  ; 182
+	const SAND_TOMB    ; 183
+	const ICE_BALL     ; 184
+	const CHILLY_WATER ; 185
+	const CLEAR_SMOG   ; 186
+	const ALLURE       ; 187
+	const SCALE_SHOT   ; 188
+	const NIGHT_DAZE   ; 189
+	const METEOR_BEAM  ; 18a
 DEF NUM_ATTACKS EQU const_value - 1
 
-;;; TO ADD:
-;		U-Turn
+
 
 	if NUM_ATTACKS > $3fff
 		fail "Too many moves defined!"

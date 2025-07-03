@@ -198,4 +198,5 @@ BattleCommandPointers:
 	dw BattleCommand_ScreenBreak
 	dw BattleCommand_DireStatusChance
 	dw BattleCommand_Superpower
+	dw BattleCommand_ResetFoeStat
 	assert_table_length NUM_EFFECT_COMMANDS

@@ -20,3 +20,4 @@ INCLUDE "engine/battle/move_effects/close_combat.asm"
 INCLUDE "engine/battle/move_effects/superpower.asm"
 
 INCLUDE "engine/battle/move_effects/screen_break.asm"
+INCLUDE "engine/battle/move_effects/reset_foe_stats.asm"

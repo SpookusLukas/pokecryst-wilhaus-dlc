@@ -385,6 +385,7 @@ BattleAnimations::
 	dw BattleAnim_MuddyWater
 ;	dw BattleAnim_Assurance
 ;	dw BattleAnim_Avalanche
+;	dw BattleAnim_Revenge
 	dw BattleAnim_BrickBreak
 	dw BattleAnim_TwinBeam
 	dw BattleAnim_HyperDrill
@@ -410,6 +411,19 @@ BattleAnimations::
 	dw BattleAnim_DoubleHit
 	dw BattleAnim_WoodHammer
 	dw BattleAnim_PsychicFang
+	dw BattleAnim_HeadSmash
+	dw BattleAnim_SkitterSmack
+	dw BattleAnim_Infestation
+	dw BattleAnim_CellSlam
+	dw BattleAnim_RagingFury
+	dw BattleAnim_SandTomb
+	dw BattleAnim_IceBall
+	dw BattleAnim_ChillyWater
+	dw BattleAnim_ClearSmog
+	dw BattleAnim_Allure
+	dw BattleAnim_ScaleShot
+	dw BattleAnim_NightDaze
+	dw BattleAnim_MeteorBeam
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -920,6 +934,7 @@ BattleAnim_BlazeKick:
 BattleAnim_MuddyWater:
 ;BattleAnim_Assurance:
 ;BattleAnim_Avalanche:
+;BattleAnim_Revenge:
 BattleAnim_BrickBreak:
 BattleAnim_TwinBeam:
 BattleAnim_HyperDrill:
@@ -945,6 +960,19 @@ BattleAnim_MetalSound:
 BattleAnim_DoubleHit:
 BattleAnim_WoodHammer:
 BattleAnim_PsychicFang:
+BattleAnim_HeadSmash:
+BattleAnim_SkitterSmack:
+BattleAnim_Infestation:
+BattleAnim_CellSlam:
+BattleAnim_RagingFury:
+BattleAnim_SandTomb:
+BattleAnim_IceBall:
+BattleAnim_ChillyWater:
+BattleAnim_ClearSmog:
+BattleAnim_Allure:
+BattleAnim_ScaleShot:
+BattleAnim_NightDaze:
+BattleAnim_MeteorBeam:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

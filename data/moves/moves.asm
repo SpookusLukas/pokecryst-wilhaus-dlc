@@ -317,7 +317,7 @@ Moves1:
 	move EFFECT_POISON_HIT,        120, POISON,        PHYSICAL,  80,  5,  30      ;GUNK_SHOT
 	move EFFECT_SPEED_DOWN_HIT,     60, GROUND,        PHYSICAL, 100, 20, 100      ;BULLDOZE
 	move EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        SPECIAL,  100, 10,  10      ;EARTH_POWER
-	move EFFECT_ACCURACY_DOWN_HIT,  65, GROUND,        SPECIAL,   85, 10,  30      ;MUD_BOMB
+	move EFFECT_ACCURACY_DOWN_HIT,  65, GROUND,        SPECIAL,   85, 10,  40      ;MUD_BOMB
 	move EFFECT_NORMAL_HIT,         80, GROUND,        PHYSICAL,  95, 10,   0      ;DRILL_RUN
 	move EFFECT_ALWAYS_HIT,         60, FLYING,        PHYSICAL, 100, 20,   0      ;AERIAL_ACE
 	move EFFECT_FLINCH_HIT,         75, FLYING,        SPECIAL,   95, 15,  30      ;AIR_SLASH
@@ -374,6 +374,7 @@ Moves1:
 	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,         SPECIAL,   85, 10,  30      ;MUDDY_WATER
 ;	move EFFECT_PAYBACK,            60, DARK,          PHYSICAL, 100, 10,   0      ;ASSURANCE
 ;	move EFFECT_PAYBACK,            60, ICE,           PHYSICAL, 100, 10,   0      ;AVALANCHE
+;   move EFFECT_PAYBACK,            60, FIGHTING,      PHYSICAL, 100, 10,   0      ;REVENGE
 	move EFFECT_SCREEN_BREAK,       75, FIGHTING,      PHYSICAL, 100, 15,   0      ;BRICK_BREAK
 	move EFFECT_DOUBLE_HIT,         40, PSYCHIC_TYPE,  SPECIAL,  100, 10,   0      ;TWIN_BEAM
 	move EFFECT_SCREEN_BREAK,      100, NORMAL,        PHYSICAL, 100,  5,   0      ;HYPER_DRILL
@@ -399,6 +400,20 @@ Moves1:
 	move EFFECT_DOUBLE_HIT,         35, NORMAL,        PHYSICAL,  90, 10,   0      ;DOUBLE_HIT
 	move EFFECT_RECOIL_HIT,        120, GRASS,         PHYSICAL, 100, 15,   0      ;WOOD_HAMMER
 	move EFFECT_SCREEN_BREAK,       85, PSYCHIC_TYPE,  PHYSICAL, 100, 10,   0      ;PSYCHIC_FANG
+	move EFFECT_RECOIL_HIT,        150, ROCK,          PHYSICAL,  80,  5,   0      ;HEAD_SMASH
+	move EFFECT_SP_ATK_DOWN_HIT,    70, BUG,           PHYSICAL,  90, 10, 100      ;SKITTERSMACK
+	move EFFECT_TRAP_TARGET,        25, BUG,           SPECIAL,  100, 20,   0      ;INFESTATION
+	move EFFECT_JUMP_KICK,         100, ELECTRIC,      PHYSICAL,  95, 15,   0      ;CELL_SLAM
+	move EFFECT_RAMPAGE,           120, FIRE,          PHYSICAL, 100, 10,   0      ;RAGING_FURY
+	move EFFECT_TRAP_TARGET,        35, GROUND,        PHYSICAL,  90, 15,   0      ;SAND_TOMB
+	move EFFECT_ROLLOUT,            30, ICE,           PHYSICAL,  90, 20,   0      ;ICE_BALL
+	move EFFECT_ATTACK_DOWN_HIT,    50, WATER,         SPECIAL,  100, 20, 100      ;CHILLY_WATER
+	move EFFECT_RESET_STATS_HIT,    60, POISON,        SPECIAL,  100, 15,   0      ;CLEAR_SMOG
+	move EFFECT_CONFUSE_HIT,        80, FAIRY,         SPECIAL,  100, 10,  25      ;ALLURE
+	move EFFECT_MULTI_HIT,          25, DRAGON,        PHYSICAL,  95, 20,   0      ;SCALE_SHOT
+	move EFFECT_ACCURACY_DOWN_HIT,  85, DARK,          SPECIAL,   95, 10,  40      ;NIGHT_DAZE
+	move EFFECT_METEOR_BEAM,       120, ROCK,          SPECIAL,   90, 10,   0      ;METEOR_BEAM
+	;move EFFECT_YAWN,                0, NORMAL,        STATUS,   100,  5,   0      ;YAWN
+
 	.IndirectEnd::
 
-; add yawn, revenge

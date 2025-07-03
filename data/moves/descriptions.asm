@@ -361,6 +361,7 @@ MoveDescriptions1:
 	dw MuddyWaterDescription
 ;	dw AssuranceDescription
 ;	dw AvalancheDescription
+;	dw RevengeDescription
 	dw BrickBreakDescription
 	dw TwinBeamDescription
 	dw HyperDrillDescription
@@ -386,6 +387,20 @@ MoveDescriptions1:
 	dw DoubleHitDescription
 	dw WoodHammerDescription
 	dw PsychicFangDescription
+	dw HeadSmashDescription
+	dw SkitterSmackDescription
+	dw InfestationDescription
+	dw CellSlamDescription
+	dw RagingFuryDescription
+	dw SandTombDescription
+	dw IceBallDescription
+	dw ChillyWaterDescription
+	dw ClearSmogDescription
+	dw AllureDescription
+	dw ScaleShotDescription
+	dw NightDazeDescription
+	dw MeteorBeamDescription
+	
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1811,6 +1826,10 @@ MuddyWaterDescription:
 ;	db   "2x damage if"
 ;	next "already attacked.@"
 
+;RevengeDescription: 
+;	db   "2x damage if"
+;	next "already attacked.@"
+
 BrickBreakDescription: 
 	db   "Breaks Reflect and"
 	next "Light Screen.@"
@@ -1911,3 +1930,54 @@ PsychicFangDescription:
 	db   "Breaks Reflect and"
 	next "Light Screen.@"
 	
+HeadSmashDescription:
+	db   "A tackle that also"
+	next "hurts the user.@"
+
+SkitterSmackDescription:
+	db   "A strike that"
+	next "lowers SP. ATK.@"
+
+InfestationDescription:
+	db   "Traps the foe for"
+	next "2-5 turns.@"
+
+CellSlamDescription:
+	db   "May miss, damaging"
+	next "the user.@"
+
+RagingFuryDescription:
+	db   "Works 2-3 turns"
+	next "and confuses user.@"
+
+SandTombDescription:
+	db   "Traps the foe for"
+	next "2-5 turns.@"
+
+IceBallDescription:
+	db   "Attacks 5 turns"
+	next "with rising power.@"
+
+ChillyWaterDescription:
+	db   "A stream that"
+	next "lowers ATTACK.@"
+
+ClearSmogDescription:
+	db   "Eliminates all"
+	next "stat changes.@"
+
+AllureDescription:
+	db   "An attack that may"
+	next "confuse the foe.@"
+
+ScaleShotDescription:
+	db   "Jabs the target"
+	next "2-5 times.@"
+
+NightDazeDescription:
+	db   "An attack that may"
+	next "reduce accuracy.@"
+
+MeteorBeamDescription:
+	db   "1st turn: Charge"
+	next "2nd turn: Attack@"

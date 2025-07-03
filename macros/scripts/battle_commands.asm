@@ -198,6 +198,7 @@ ENDM
 	command screenbreak             ; bf
 	command direstatuschance        ; c0
 	command superpower              ; c1
+	command resetfoestat            ; c2
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1

@@ -1102,6 +1102,7 @@ BattleCommand_DoTurn:
 .continuousmoves
 	db EFFECT_RAZOR_WIND
 	db EFFECT_SKY_ATTACK
+	db EFFECT_METEOR_BEAM
 	db EFFECT_SKULL_BASH
 	db EFFECT_SOLARBEAM
 	db EFFECT_FLY
@@ -1959,6 +1960,8 @@ BattleCommand_LowerSub:
 	cp EFFECT_RAZOR_WIND
 	jr z, .charge_turn
 	cp EFFECT_SKY_ATTACK
+	jr z, .charge_turn
+	cp EFFECT_METEOR_BEAM
 	jr z, .charge_turn
 	cp EFFECT_SKULL_BASH
 	jr z, .charge_turn
@@ -5827,13 +5830,14 @@ BattleCommand_Charge:
 	ret
 
 .move_messages
-	dw RAZOR_WIND, .BattleMadeWhirlwindText
-	dw SOLARBEAM,  .BattleTookSunlightText
-	dw SKULL_BASH, .BattleLoweredHeadText
-	dw SKY_ATTACK, .BattleGlowingText
-	dw FLY,        .BattleFlewText
-	dw DIG,        .BattleDugText
-	dw DIVE,       .BattleDiveText
+	dw RAZOR_WIND,  .BattleMadeWhirlwindText
+	dw SOLARBEAM,   .BattleTookSunlightText
+	dw SKULL_BASH,  .BattleLoweredHeadText
+	dw SKY_ATTACK,  .BattleGlowingText
+	dw METEOR_BEAM, .BattleGlowingText
+	dw FLY,         .BattleFlewText
+	dw DIG,         .BattleDugText
+	dw DIVE,        .BattleDiveText
 	dw -1
 
 .BattleMadeWhirlwindText:
